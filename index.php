@@ -80,13 +80,11 @@ $Timer = Number_Format(MicroTime(true) - $Timer, 4, '.', '');
     <link rel="stylesheet" href="static/css/style.css">
     <link rel="stylesheet" href="static/css/responsive.css@v=%253C%253F=time()%253F%253E.css">
     <link rel="shortcut icon" type="image/png" href="static/img/favicon.png">
-
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
 
 <section class="overflow-hide">
-
     <div class="mobile_menu">
         <i class="close_menu fal fa-times"></i>
         <ul>
@@ -136,7 +134,6 @@ $Timer = Number_Format(MicroTime(true) - $Timer, 4, '.', '');
 
 
                     </div>
-
                 </a>
                 <ul class="main_menu">
                     <li>
@@ -152,7 +149,6 @@ $Timer = Number_Format(MicroTime(true) - $Timer, 4, '.', '');
                         <div class="online_text">Онлайн: <?php echo $Info['players']['online']; ?></div>
                         <progress max="100" value="<?php echo $Info['players']['online']; ?>"></progress>
                     </li>
-
                 </ul>
                 <div class="social_menu">
                     <a href="https://discord.quickworld.fun/"><i class="fab fa-discord"></i></a>
@@ -166,6 +162,7 @@ $Timer = Number_Format(MicroTime(true) - $Timer, 4, '.', '');
         </div>
     </div>
     <div class="main_content sky">
+
         <div class="container">
             <div class="top_block">
                 <div class="header_info">
@@ -187,53 +184,89 @@ $Timer = Number_Format(MicroTime(true) - $Timer, 4, '.', '');
                 <div class="row s_boxes">
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
                         <a href="https://quickworld.diaka.ua/quickcoins100">
-                            <div class="s_box wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                            <div class="new_year_donat wow fadeInUp zoomIn" data-wow-delay="0.1s">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <p class="s_name">Кейс 1</p>
                                     <p class="s_price">20 гривень</p>
                                 </div>
                                 <p class="s_info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto,
-                                    quam.</p>
-                                <img class="s_img" id="s1" src="static/img/services/c5.png">
+                                    quam.
+                                </p>
+                                <div class="snowman">
+                                    <div class="snowman-face"></div>
+                                    <div class="snowman-nose"></div>
+                                    <div class="mouth"></div>
+                                    <div class="buttons"></div>
+                                    <div class="arm right"></div>
+                                    <div class="arm left"></div>
+                                </div>
+                                <div class="shadow"></div>
                             </div>
                         </a>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
                         <a href="https://quickworld.diaka.ua/quickcoins250">
-                            <div class="s_box wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                            <div class="new_year_donat wow fadeInUp zoomIn" data-wow-delay="0.1s">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <p class="s_name">Кейс 2</p>
                                     <p class="s_price">50 гривень</p>
                                 </div>
                                 <p class="s_info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam,
-                                    repudiandae!</p>
-                                <img class="s_img" id="s1" src="static/img/services/c6.png">
+                                    repudiandae!
+                                </p>
+                                <div class="snowman">
+                                    <div class="snowman-face"></div>
+                                    <div class="snowman-nose"></div>
+                                    <div class="mouth"></div>
+                                    <div class="buttons"></div>
+                                    <div class="arm right"></div>
+                                    <div class="arm left"></div>
+                                </div>
+                                <div class="shadow"></div>
                             </div>
                         </a>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
                         <a href="https://quickworld.diaka.ua/quickcoins500">
-                            <div class="s_box wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                            <div class="new_year_donat wow fadeInUp zoomIn" data-wow-delay="0.1s">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <p class="s_name">Кейс 3</p>
                                     <p class="s_price">100 гривень</p>
                                 </div>
                                 <p class="s_info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi,
-                                    vitae!</p>
-                                <img class="s_img" id="s1" src="static/img/services/c7.png">
+                                    vitae!
+                                </p>
+                                <div class="snowman">
+                                    <div class="snowman-face"></div>
+                                    <div class="snowman-nose"></div>
+                                    <div class="mouth"></div>
+                                    <div class="buttons"></div>
+                                    <div class="arm right"></div>
+                                    <div class="arm left"></div>
+                                </div>
+                                <div class="shadow"></div>
                             </div>
                         </a>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
                         <a href="https://quickworld.diaka.ua/quickcoins1000">
-                            <div class="s_box wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                            <div class="new_year_donat wow fadeInUp zoomIn" data-wow-delay="0.1s">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <p class="s_name">Кейс 4</p>
                                     <p class="s_price">200 гривень</p>
                                 </div>
                                 <p class="s_info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus,
-                                    tempore.</p>
-                                <img class="s_img" id="s1" src="static/img/services/c8.png">
+                                    tempore.
+                                </p>
+                                <div class="snowman">
+                                    <div class="snowman-face"></div>
+                                    <div class="snowman-nose"></div>
+                                    <div class="mouth"></div>
+                                    <div class="buttons"></div>
+                                    <div class="arm right"></div>
+                                    <div class="arm left"></div>
+                                </div>
+                                <div class="shadow"></div>
                             </div>
                         </a>
                     </div>
@@ -244,105 +277,89 @@ $Timer = Number_Format(MicroTime(true) - $Timer, 4, '.', '');
                     30%</p>
                 <div class="row s_boxes">
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                        <a href="https://quickworld.diaka.ua/quick">
-                            <div class="s_box wow fadeInUp zoomIn" data-wow-delay="0.1s">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <p class="s_name">Quick</p>
-                                    <p class="s_price">9 гривень</p>
-                                </div>
-                                <p class="s_info">Нащо ж дворянство нам здалося, коли воно лиш горе приносе?</p>
-                                <img class="s_img" id="s1" src="static/img/services/s1.png">
+                        <div class="s_box item1 wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="s_name">Quick</p>
+                                <p class="s_price">9 гривень</p>
                             </div>
-                        </a>
+                            <p class="s_info">Нащо ж дворянство нам здалося, коли воно лиш горе приносе?</p>
+                            <img class="s_img" id="s1" src="static/img/services/s1.png">
+                        </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                        <a href="https://quickworld.diaka.ua/baro">
-                            <div class="s_box wow fadeInUp zoomIn" data-wow-delay="0.1s">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <p class="s_name">Baro</p>
-                                    <p class="s_price">19 гривень</p>
-                                </div>
-                                <p class="s_info">Дух тут важкий, от у селян мізки й гниють!</p>
-                                <img class="s_img" id="s2" src="static/img/services/s2.png">
+                        <div class="s_box item2 wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="s_name">Baro</p>
+                                <p class="s_price">19 гривень</p>
                             </div>
-                        </a>
+                            <p class="s_info">Дух тут важкий, от у селян мізки й гниють!</p>
+                            <img class="s_img" id="s2" src="static/img/services/s2.png">
+                        </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                        <a href="https://quickworld.diaka.ua/vikont">
-                            <div class="s_box wow fadeInUp zoomIn" data-wow-delay="0.1s">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <p class="s_name">Vikont</p>
-                                    <p class="s_price">29 гривень</p>
-                                </div>
-                                <p class="s_info">Якщо зосередитись на боргу та відповідальності, а не на владі, для
-                                    ворожнечі майже не залишається місця.</p>
-                                <img class="s_img" id="s3" src="static/img/services/s3.png">
+                        <div class="s_box item3 wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="s_name">Vikont</p>
+                                <p class="s_price">29 гривень</p>
                             </div>
-                        </a>
+                            <p class="s_info">Якщо зосередитись на боргу та відповідальності, а не на владі, для
+                                ворожнечі майже не залишається місця.</p>
+                            <img class="s_img" id="s3" src="static/img/services/s3.png">
+                        </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                        <a href="https://quickworld.diaka.ua/comte">
-                            <div class="s_box wow fadeInUp zoomIn" data-wow-delay="0.1s">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <p class="s_name">Comte</p>
-                                    <p class="s_price">69 гривень</p>
-                                </div>
-                                <p class="s_info">Вважаю за краще не називати так швидко свого імені! Але за титулом —
-                                    граф!</p>
-                                <img class="s_img" id="s4" src="static/img/services/s4.png">
+                        <div class="s_box item4 wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="s_name">Comte</p>
+                                <p class="s_price">69 гривень</p>
                             </div>
-                        </a>
+                            <p class="s_info">Вважаю за краще не називати так швидко свого імені! Але за титулом —
+                                граф!</p>
+                            <img class="s_img" id="s4" src="static/img/services/s4.png">
+                        </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                        <a href="https://quickworld.diaka.ua/markiz">
-                            <div class="s_box wow fadeInUp zoomIn" data-wow-delay="0.1s">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <p class="s_name">Markiz</p>
-                                    <p class="s_price">99 гривень</p>
-                                </div>
-                                <p class="s_info">Ті, хто купують владу за гроші звикають отримувати з неї прибуток.</p>
-                                <img class="s_img" id="s5" src="static/img/services/s5.png">
+                        <div class="s_box item5 wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="s_name">Markiz</p>
+                                <p class="s_price">99 гривень</p>
                             </div>
-                        </a>
+                            <p class="s_info">Ті, хто купують владу за гроші звикають отримувати з неї прибуток.</p>
+                            <img class="s_img" id="s5" src="static/img/services/s5.png">
+                        </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                        <a href="https://quickworld.diaka.ua/prorex">
-                            <div class="s_box wow fadeInUp zoomIn" data-wow-delay="0.1s">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <p class="s_name">Prorex</p>
-                                    <p class="s_price">169 гривень</p>
-                                </div>
-                                <p class="s_info">Моліться за добробут верховної влади, бо, якби не страх перед нею,
-                                    люди ковтали б одне одного живцем.</p>
-                                <img class="s_img" id="s6" src="static/img/services/s6.png">
+                        <div class="s_box item6 wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="s_name">Prorex</p>
+                                <p class="s_price">169 гривень</p>
                             </div>
-                        </a>
+                            <p class="s_info">Моліться за добробут верховної влади, бо, якби не страх перед нею,
+                                люди ковтали б одне одного живцем.</p>
+                            <img class="s_img" id="s6" src="static/img/services/s6.png">
+                        </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                        <a href="https://quickworld.diaka.ua/dux">
-                            <div class="s_box wow fadeInUp zoomIn" data-wow-delay="0.1s">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <p class="s_name">Dux</p>
-                                    <p class="s_price">249 гривень</p>
-                                </div>
-                                <p class="s_info">І сів він, князюючи, в Києві, і мовив : «Хай буде се мати городам
-                                    руським»</p>
-                                <img class="s_img" id="s7" src="static/img/services/s7.png">
+                        <div class="s_box item7 wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="s_name">Dux</p>
+                                <p class="s_price">249 гривень</p>
                             </div>
-                        </a>
+                            <p class="s_info">І сів він, князюючи, в Києві, і мовив : «Хай буде се мати городам
+                                руським»</p>
+                            <img class="s_img" id="s7" src="static/img/services/s7.png">
+                        </div>
                     </div>
                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                        <a href="https://quickworld.diaka.ua/imperatrix">
-                            <div class="s_box wow fadeInUp zoomIn" data-wow-delay="0.1s">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <p class="s_name">Imperatrix</p>
-                                    <p class="s_price">329 гривень</p>
-                                </div>
-                                <p class="s_info">Ваша воля виконана: я імператор, але якою ціною, Боже мій! Ціною крові
-                                    моїх підданих!</p>
-                                <img class="s_img" id="s8" src="static/img/services/s8.png">
+                        <div class="s_box item8 wow fadeInUp zoomIn" data-wow-delay="0.1s">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <p class="s_name">Imperatrix</p>
+                                <p class="s_price">329 гривень</p>
                             </div>
-                        </a>
+                            <p class="s_info">Ваша воля виконана: я імператор, але якою ціною, Боже мій! Ціною крові
+                                моїх підданих!</p>
+                            <img class="s_img" id="s8" src="static/img/services/s8.png">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -504,6 +521,7 @@ $Timer = Number_Format(MicroTime(true) - $Timer, 4, '.', '');
         <div class="services" id="services">
             <h1 class="s_title wow fadeInUp">Український сервер Minecraft - QuickWorld.fun</h1>
         </div>
+
         <div class="footer">
             <div class="container">
                 <div class="row align-items-center">
@@ -525,6 +543,11 @@ $Timer = Number_Format(MicroTime(true) - $Timer, 4, '.', '');
                     © 2022 QuickWorld. Всі права захищені.
                 </div>
             </div>
+        </div>
+
+
+        <div class="container">
+
         </div>
     </div>
     <div class="popup-bg">
@@ -740,6 +763,279 @@ $Timer = Number_Format(MicroTime(true) - $Timer, 4, '.', '');
             </div>
         </div>
     </div>
+    <div class="popup-bg-item1">
+        <div class="popup-item-content">
+            <div class="container">
+                <div class="close-popup">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="content">
+                    <p>Виберіть термін</p>
+                    <div class="variants">
+                        <div class="variants-item">
+                            <p>1 місяць</p>
+                            <div class="price_row">
+                                <div class="old-price">100 грн</div>
+                                <div class="active-price">100 грн</div>
+                            </div>
+                            <div class="price_btn">
+                                <a href="#">Купити</a>
+                            </div>
+                        </div>
+                        <div class="variants-item">
+                            <p>Назавжди</p>
+                            <div class="price_row">
+                                <div class="old-price">100 грн</div>
+                                <div class="active-price">100 грн</div>
+                            </div>
+                            <div class="price_btn">
+                                <a href="#">Купити</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup-bg-item2">
+        <div class="popup-item-content">
+            <div class="container">
+                <div class="close-popup">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="content">
+                    <p>Виберіть термін</p>
+                    <div class="variants">
+                        <div class="variants-item">
+                            <p>1 місяць</p>
+                            <div class="price_row">
+                                <div class="old-price">2 грн</div>
+                                <div class="active-price">2 грн</div>
+                            </div>
+                            <div class="price_btn">
+                                <a href="#">Купити</a>
+                            </div>
+                        </div>
+                        <div class="variants-item">
+                            <p>Назавжди</p>
+                            <div class="price_row">
+                                <div class="old-price">2500 грн</div>
+                                <div class="active-price">2000 грн</div>
+                            </div>
+                            <div class="price_btn">
+                                <a href="#">Купити</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup-bg-item3">
+        <div class="popup-item-content">
+            <div class="container">
+                <div class="close-popup">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="content">
+                    <p>Виберіть термін</p>
+                    <div class="variants">
+                        <div class="variants-item">
+                            <p>1 місяць</p>
+                            <div class="price_row">
+                                <div class="old-price">3 грн</div>
+                                <div class="active-price">3 грн</div>
+                            </div>
+                            <div class="price_btn">
+                                <a href="#">Купити</a>
+                            </div>
+                        </div>
+                        <div class="variants-item">
+                            <p>Назавжди</p>
+                            <div class="price_row">
+                                <div class="old-price">2500 грн</div>
+                                <div class="active-price">2000 грн</div>
+                            </div>
+                            <div class="price_btn">
+                                <a href="#">Купити</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup-bg-item4">
+        <div class="popup-item-content">
+            <div class="container">
+                <div class="close-popup">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="content">
+                    <p>Виберіть термін</p>
+                    <div class="variants">
+                        <div class="variants-item">
+                            <p>1 місяць</p>
+                            <div class="price_row">
+                                <div class="old-price">4 грн</div>
+                                <div class="active-price">4 грн</div>
+                            </div>
+                            <div class="price_btn">
+                                <a href="#">Купити</a>
+                            </div>
+                        </div>
+                        <div class="variants-item">
+                            <p>Назавжди</p>
+                            <div class="price_row">
+                                <div class="old-price">2500 грн</div>
+                                <div class="active-price">2000 грн</div>
+                            </div>
+                            <div class="price_btn">
+                                <a href="#">Купити</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup-bg-item5">
+        <div class="popup-item-content">
+            <div class="container">
+                <div class="close-popup">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="content">
+                    <p>Виберіть термін</p>
+                    <div class="variants">
+                        <div class="variants-item">
+                            <p>1 місяць</p>
+                            <div class="price_row">
+                                <div class="old-price">5 грн</div>
+                                <div class="active-price">5 грн</div>
+                            </div>
+                            <div class="price_btn">
+                                <a href="#">Купити</a>
+                            </div>
+                        </div>
+                        <div class="variants-item">
+                            <p>Назавжди</p>
+                            <div class="price_row">
+                                <div class="old-price">2500 грн</div>
+                                <div class="active-price">2000 грн</div>
+                            </div>
+                            <div class="price_btn">
+                                <a href="#">Купити</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup-bg-item6">
+        <div class="popup-item-content">
+            <div class="container">
+                <div class="close-popup">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="content">
+                    <p>Виберіть термін</p>
+                    <div class="variants">
+                        <div class="variants-item">
+                            <p>1 місяць</p>
+                            <div class="price_row">
+                                <div class="old-price">6 грн</div>
+                                <div class="active-price">6 грн</div>
+                            </div>
+                            <div class="price_btn">
+                                <a href="#">Купити</a>
+                            </div>
+                        </div>
+                        <div class="variants-item">
+                            <p>Назавжди</p>
+                            <div class="price_row">
+                                <div class="old-price">2500 грн</div>
+                                <div class="active-price">2000 грн</div>
+                            </div>
+                            <div class="price_btn">
+                                <a href="#">Купити</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup-bg-item7">
+        <div class="popup-item-content">
+            <div class="container">
+                <div class="close-popup">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="content">
+                    <p>Виберіть термін</p>
+                    <div class="variants">
+                        <div class="variants-item">
+                            <p>1 місяць</p>
+                            <div class="price_row">
+                                <div class="old-price">7 грн</div>
+                                <div class="active-price">7 грн</div>
+                            </div>
+                            <div class="price_btn">
+                                <a href="#">Купити</a>
+                            </div>
+                        </div>
+                        <div class="variants-item">
+                            <p>Назавжди</p>
+                            <div class="price_row">
+                                <div class="old-price">2500 грн</div>
+                                <div class="active-price">2000 грн</div>
+                            </div>
+                            <div class="price_btn">
+                                <a href="#">Купити</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup-bg-item8">
+        <div class="popup-item-content">
+            <div class="container">
+                <div class="close-popup">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="content">
+                    <p>Виберіть термін</p>
+                    <div class="variants">
+                        <div class="variants-item">
+                            <p>1 місяць</p>
+                            <div class="price_row">
+                                <div class="old-price">8 грн</div>
+                                <div class="active-price">8 грн</div>
+                            </div>
+                            <div class="price_btn">
+                                <a href="#">Купити</a>
+                            </div>
+                        </div>
+                        <div class="variants-item">
+                            <p>Назавжди</p>
+                            <div class="price_row">
+                                <div class="old-price">2500 грн</div>
+                                <div class="active-price">2000 грн</div>
+                            </div>
+                            <div class="price_btn">
+                                <a href="#">Купити</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 </section>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"

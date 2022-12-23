@@ -33,6 +33,87 @@ $(function (){
     });
 });
 
+$(function (){
+    $('.item1').click(function (){
+        $('.popup-bg-item1').addClass('opened')
+        $('body').addClass('lock')
+    });
+    $('.close-popup').click(function (){
+        $('.popup-bg-item1').removeClass('opened')
+        $('body').removeClass('lock')
+    });
+});
+
+$(function (){
+    $('.item2').click(function (){
+        $('.popup-bg-item2').addClass('opened')
+        $('body').addClass('lock')
+    });
+    $('.close-popup').click(function (){
+        $('.popup-bg-item2').removeClass('opened')
+        $('body').removeClass('lock')
+    });
+});
+$(function (){
+    $('.item3').click(function (){
+        $('.popup-bg-item3').addClass('opened')
+        $('body').addClass('lock')
+    });
+    $('.close-popup').click(function (){
+        $('.popup-bg-item3').removeClass('opened')
+        $('body').removeClass('lock')
+    });
+});
+$(function (){
+    $('.item4').click(function (){
+        $('.popup-bg-item4').addClass('opened')
+        $('body').addClass('lock')
+    });
+    $('.close-popup').click(function (){
+        $('.popup-bg-item4').removeClass('opened')
+        $('body').removeClass('lock')
+    });
+});
+$(function (){
+    $('.item5').click(function (){
+        $('.popup-bg-item5').addClass('opened')
+        $('body').addClass('lock')
+    });
+    $('.close-popup').click(function (){
+        $('.popup-bg-item5').removeClass('opened')
+        $('body').removeClass('lock')
+    });
+});
+$(function (){
+    $('.item6').click(function (){
+        $('.popup-bg-item6').addClass('opened')
+        $('body').addClass('lock')
+    });
+    $('.close-popup').click(function (){
+        $('.popup-bg-item6').removeClass('opened')
+        $('body').removeClass('lock')
+    });
+});
+$(function (){
+    $('.item7').click(function (){
+        $('.popup-bg-item7').addClass('opened')
+        $('body').addClass('lock')
+    });
+    $('.close-popup').click(function (){
+        $('.popup-bg-item7').removeClass('opened')
+        $('body').removeClass('lock')
+    });
+});
+$(function (){
+    $('.item8').click(function (){
+        $('.popup-bg-item8').addClass('opened')
+        $('body').addClass('lock')
+    });
+    $('.close-popup').click(function (){
+        $('.popup-bg-item8').removeClass('opened')
+        $('body').removeClass('lock')
+    });
+});
 
 $( function() {
     $( "#accordion" ).accordion({
@@ -148,4 +229,6 @@ var gui = new dat.GUI();
 gui.add(window, 'particleCount').min(1).max(particleMax).step(1).name('Particles count').onFinishChange(function() {
   requestAnimFrame(update);
 });
+
+
 

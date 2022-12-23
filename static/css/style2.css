@@ -656,6 +656,25 @@ select {
     width: 100%;
     height: 100%
 }
+.new_year_donat{
+    background: #b3d3c3;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 100%;
+    height: 290px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+    padding: 20px 10px;
+    transition: all .3s
+}
+.new_year_donat::after{
+    background-image: inherit;
+}
+.new_year_donat:hover {
+    transform: scale(1.1);
+    z-index: 2
+}
 
 .s_box:hover {
     transform: scale(1.1);
