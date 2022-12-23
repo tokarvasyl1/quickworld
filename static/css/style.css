@@ -1,0 +1,238 @@
+body.lock {
+  overflow-y: hidden;
+}
+
+.popup-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  opacity: 0;
+  z-index: 9999;
+}
+
+.popup-content {
+  position: absolute;
+  width: 50%;
+  height: 60%;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 30px;
+  border-radius: 10px;
+  z-index: 1000;
+}
+@media screen and (max-width: 1000px) {
+  .popup-content {
+    height: 70%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .popup-content {
+    height: 70%;
+    width: 70%;
+  }
+}
+@media screen and (max-width: 470px) {
+  .popup-content {
+    height: 70%;
+    width: 80%;
+  }
+}
+
+.close-popup {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.close-popup i {
+  font-size: 25px;
+}
+
+.popup-bg.opened {
+  visibility: visible;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.scroll_items {
+  width: 80%;
+  height: 52vh;
+  margin: auto;
+  overflow-y: auto;
+}
+@media screen and (max-width: 768px) {
+  .scroll_items {
+    height: 55vh;
+  }
+}
+@media screen and (max-width: 470px) {
+  .scroll_items {
+    width: 90%;
+  }
+}
+.scroll_items p {
+  font-family: montserrat_regular, serif;
+  padding: 10px;
+}
+
+.ui-accordion .ui-accordion-header {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  background: #E8EFF9;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+.ui-accordion .ui-accordion-content {
+  padding: 0;
+}
+
+.ui-widget-content {
+  border: none;
+}
+
+.ui-state {
+  background-color: inherit;
+}
+
+.status_item {
+  position: relative;
+}
+.status_item .status_img {
+  max-width: 100px;
+  width: 100%;
+  height: 70px;
+  background-color: #8051eb;
+  overflow: hidden;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+@media screen and (max-width: 1000px) {
+  .status_item .status_img {
+    height: 60px;
+  }
+}
+.status_item .status_img img {
+  display: block;
+  width: 100%;
+}
+.status_item .status_tittle {
+  font-family: montserrat_bold, serif;
+  margin-left: 10px;
+  color: black;
+}
+@media screen and (max-width: 768px) {
+  .status_item .status_tittle {
+    font-size: 12px;
+  }
+}
+
+.ui-state-active .ui-icon, .ui-button:active .ui-icon {
+  position: absolute;
+  right: 0;
+}
+
+.ui-icon {
+  position: absolute;
+  right: 0;
+}
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+  border-radius: inherit;
+}
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl {
+  border-radius: inherit;
+}
+
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+  border-radius: inherit;
+}
+
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+  border-radius: inherit;
+}
+
+.ui-icon, .ui-widget-content .ui-icon {
+  display: none;
+}
+
+.ui-state-default i {
+  color: #8051eb;
+  position: absolute;
+  right: 10px;
+  font-size: 20px;
+  transition: 0.4s;
+}
+@media screen and (max-width: 768px) {
+  .ui-state-default i {
+    font-size: 15px;
+  }
+}
+
+.ui-state-active i {
+  transform: rotate(180deg);
+  transition: 0.4s;
+}
+
+.ui-accordion-header-icon .ui-icon .ui-icon-triangle-1-e {
+  display: none;
+}
+
+.popup-content ::-webkit-scrollbar {
+  width: 15px;
+  border-radius: 5px;
+}
+.popup-content ::-webkit-scrollbar-track {
+  width: 30px;
+  background: #E8EFF9;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+}
+.popup-content ::-webkit-scrollbar-thumb {
+  background: #8051eb;
+  border-radius: 7px;
+  border: 3px solid #E8EFF9;
+}
+
+.ui-accordion-content{
+  /*min-height: 500px;*/
+  /*height: 100%;*/
+}
+
+.status_details>p{
+  font-size: 12px;
+  margin-bottom: 5px;
+  padding: inherit;
+}
+
+
+.status_details>span{
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #8051eb;
+  font-family: montserrat_bold, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.status_details>.command_list{
+
+  color: black;
+  font-size: 16px;
+}
+
