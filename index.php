@@ -140,7 +140,7 @@ $Timer = Number_Format(MicroTime(true) - $Timer, 4, '.', '');
                 </a>
                 <ul class="main_menu">
                     <li>
-                        <a href="index.php">Головна</a>
+                        <a href="index.php">Головнаs</a>
                     </li>
                     <li>
                         <a class="goto_feedback" href="index.php#services">Донат</a>
